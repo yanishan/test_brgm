@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="LOCAL" jobType="Standard">
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" name="Host_BASIAS" prompt="Host_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Host_BASOL" prompt="Host_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Host_SIS" prompt="Host_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Host_SSP" prompt="Host_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Schema_BASIAS" prompt="Schema_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Schema_BASOL" prompt="Schema_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Schema_SIS" prompt="Schema_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Schema_SSP" prompt="Schema_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Database_BASIAS" prompt="Database_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Database_BASOL" prompt="Database_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Database_SIS" prompt="Database_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Database_SSP" prompt="Database_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="User_BASIAS" prompt="User_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="User_BASOL" prompt="User_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="User_SIS" prompt="User_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="User_SSP" prompt="User_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Port_BASIAS" prompt="Port_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Port_BASOL" prompt="Port_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Port_SIS" prompt="Port_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Port_SSP" prompt="Port_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Password_BASIAS" prompt="Password_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Password_BASOL" prompt="Password_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Password_SIS" prompt="Password_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Password_SSP" prompt="Password_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Host_Reporting" prompt="Host_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Schema_Reporting" prompt="Schema_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Database_Reporting" prompt="Database_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="User_Reporting" prompt="User_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Port_Reporting" prompt="Port_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Password_Reporting" prompt="Password_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Rep_IN" prompt="Rep_IN?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Rep_Arb" prompt="Rep_Arb?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Rep_Log" prompt="Rep_Log?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Rep_Pivot" prompt="Rep_Pivot?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Rep_Rej" prompt="Rep_Rej?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Separator" prompt="Separator?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" name="Host_BASIAS" prompt="Host_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter comment="" name="Host_BASOL" prompt="Host_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter comment="" name="Host_SIS" prompt="Host_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter comment="" name="Host_SSP" prompt="Host_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;192.168.16.106&quot;"/>
+    <contextParameter comment="" name="Schema_BASIAS" prompt="Schema_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;asi_p&quot;"/>
+    <contextParameter comment="" name="Schema_BASOL" prompt="Schema_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;seibasol_prod&quot;"/>
+    <contextParameter comment="" name="Schema_SIS" prompt="Schema_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;sis&quot;"/>
+    <contextParameter comment="" name="Schema_SSP" prompt="Schema_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;ssp&quot;"/>
+    <contextParameter comment="" name="Database_BASIAS" prompt="Database_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;BASIAS&quot;"/>
+    <contextParameter comment="" name="Database_BASOL" prompt="Database_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;BASOL&quot;"/>
+    <contextParameter comment="" name="Database_SIS" prompt="Database_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;SIS&quot;"/>
+    <contextParameter comment="" name="Database_SSP" prompt="Database_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;ssp&quot;"/>
+    <contextParameter comment="" name="User_BASIAS" prompt="User_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;asi_p&quot;"/>
+    <contextParameter comment="" name="User_BASOL" prompt="User_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="User_SIS" prompt="User_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="User_SSP" prompt="User_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;ssp_admin&quot;"/>
+    <contextParameter comment="" name="Port_BASIAS" prompt="Port_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;5433&quot;"/>
+    <contextParameter comment="" name="Port_BASOL" prompt="Port_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;5433&quot;"/>
+    <contextParameter comment="" name="Port_SIS" prompt="Port_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;5433&quot;"/>
+    <contextParameter comment="" name="Port_SSP" prompt="Port_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;5432&quot;"/>
+    <contextParameter comment="" name="Password_BASIAS" prompt="Password_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="Password_BASOL" prompt="Password_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="Password_SIS" prompt="Password_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="Password_SSP" prompt="Password_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;Express2019&quot;"/>
+    <contextParameter comment="" name="Host_Reporting" prompt="Host_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter comment="" name="Schema_Reporting" prompt="Schema_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;public&quot;"/>
+    <contextParameter comment="" name="Database_Reporting" prompt="Database_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;Reporting&quot;"/>
+    <contextParameter comment="" name="User_Reporting" prompt="User_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="Port_Reporting" prompt="Port_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;5433&quot;"/>
+    <contextParameter comment="" name="Password_Reporting" prompt="Password_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="Rep_IN" prompt="Rep_IN?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;C:/Migration_BRGM/Talend/in/&quot;"/>
+    <contextParameter comment="" name="Rep_Arb" prompt="Rep_Arb?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;C:/Migration_BRGM/Talend/out/arb/&quot;"/>
+    <contextParameter comment="" name="Rep_Log" prompt="Rep_Log?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;C:/Migration_BRGM/Talend/out/log/&quot;"/>
+    <contextParameter comment="" name="Rep_Pivot" prompt="Rep_Pivot?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;C:/Migration_BRGM/Talend/out/pivot/&quot;"/>
+    <contextParameter comment="" name="Rep_Rej" prompt="Rep_Rej?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;C:/Migration_BRGM/Talend/out/rej/&quot;"/>
+    <contextParameter comment="" name="Separator" prompt="Separator?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;|&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="LOCAL">
+    <contextParameter comment="" name="Host_BASIAS" prompt="Host_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter comment="" name="Host_BASOL" prompt="Host_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter comment="" name="Host_SIS" prompt="Host_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter comment="" name="Host_SSP" prompt="Host_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter comment="" name="Schema_BASIAS" prompt="Schema_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;asi_p&quot;"/>
+    <contextParameter comment="" name="Schema_BASOL" prompt="Schema_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;basolweb_prod&quot;"/>
+    <contextParameter comment="" name="Schema_SIS" prompt="Schema_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;sis&quot;"/>
+    <contextParameter comment="" name="Schema_SSP" prompt="Schema_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;public&quot;"/>
+    <contextParameter comment="" name="Database_BASIAS" prompt="Database_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;BASIAS&quot;"/>
+    <contextParameter comment="" name="Database_BASOL" prompt="Database_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;BASOL&quot;"/>
+    <contextParameter comment="" name="Database_SIS" prompt="Database_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;SIS&quot;"/>
+    <contextParameter comment="" name="Database_SSP" prompt="Database_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;SSP&quot;"/>
+    <contextParameter comment="" name="User_BASIAS" prompt="User_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;asi_p&quot;"/>
+    <contextParameter comment="" name="User_BASOL" prompt="User_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;ssp_admin&quot;"/>
+    <contextParameter comment="" name="User_SIS" prompt="User_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;sis_owner&quot;"/>
+    <contextParameter comment="" name="User_SSP" prompt="User_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;postgres&quot;"/>
+    <contextParameter comment="" name="Port_BASIAS" prompt="Port_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;5433&quot;"/>
+    <contextParameter comment="" name="Port_BASOL" prompt="Port_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;5433&quot;"/>
+    <contextParameter comment="" name="Port_SIS" prompt="Port_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;5433&quot;"/>
+    <contextParameter comment="" name="Port_SSP" prompt="Port_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;5433&quot;"/>
+    <contextParameter comment="" name="Password_BASIAS" prompt="Password_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="Password_BASOL" prompt="Password_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="Password_SIS" prompt="Password_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="Password_SSP" prompt="Password_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="Host_Reporting" prompt="Host_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter comment="" name="Schema_Reporting" prompt="Schema_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;public&quot;"/>
+    <contextParameter comment="" name="Database_Reporting" prompt="Database_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;Reporting&quot;"/>
+    <contextParameter comment="" name="User_Reporting" prompt="User_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;postgres&quot;"/>
+    <contextParameter comment="" name="Port_Reporting" prompt="Port_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;5433&quot;"/>
+    <contextParameter comment="" name="Password_Reporting" prompt="Password_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="Rep_IN" prompt="Rep_IN?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;C:/Migration_BRGM/Talend/in/&quot;"/>
+    <contextParameter comment="" name="Rep_Arb" prompt="Rep_Arb?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;C:/Migration_BRGM/Talend/out/arb/&quot;"/>
+    <contextParameter comment="" name="Rep_Log" prompt="Rep_Log?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;C:/Migration_BRGM/Talend/out/log/&quot;"/>
+    <contextParameter comment="" name="Rep_Pivot" prompt="Rep_Pivot?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;C:/Migration_BRGM/Talend/out/pivot/&quot;"/>
+    <contextParameter comment="" name="Rep_Rej" prompt="Rep_Rej?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;C:/Migration_BRGM/Talend/out/rej/&quot;"/>
+    <contextParameter comment="" name="Separator" prompt="Separator?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value="&quot;|&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="PREPROD">
+    <contextParameter comment="" name="Host_BASIAS" prompt="Host_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Host_BASOL" prompt="Host_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Host_SIS" prompt="Host_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Host_SSP" prompt="Host_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Schema_BASIAS" prompt="Schema_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Schema_BASOL" prompt="Schema_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Schema_SIS" prompt="Schema_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Schema_SSP" prompt="Schema_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Database_BASIAS" prompt="Database_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Database_BASOL" prompt="Database_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Database_SIS" prompt="Database_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Database_SSP" prompt="Database_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="User_BASIAS" prompt="User_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="User_BASOL" prompt="User_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="User_SIS" prompt="User_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="User_SSP" prompt="User_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Port_BASIAS" prompt="Port_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Port_BASOL" prompt="Port_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Port_SIS" prompt="Port_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Port_SSP" prompt="Port_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Password_BASIAS" prompt="Password_BASIAS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Password_BASOL" prompt="Password_BASOL?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Password_SIS" prompt="Password_SIS?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Password_SSP" prompt="Password_SSP?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Host_Reporting" prompt="Host_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Schema_Reporting" prompt="Schema_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Database_Reporting" prompt="Database_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="User_Reporting" prompt="User_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Port_Reporting" prompt="Port_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Password_Reporting" prompt="Password_Reporting?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Rep_IN" prompt="Rep_IN?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Rep_Arb" prompt="Rep_Arb?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Rep_Log" prompt="Rep_Log?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Rep_Pivot" prompt="Rep_Pivot?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Rep_Rej" prompt="Rep_Rej?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+    <contextParameter comment="" name="Separator" prompt="Separator?" promptNeeded="false" repositoryContextId="_uU7eEBpFEemNFt8j3REphA" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="256" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/DI/TOS_DI-20181026_1147-V7.1.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_-pDWUBikEemEWtF8THou5A" name="DataOperation"/>
+    <routinesParameter id="_5DK_JkWXEemrHbbpYf4SYA" name="GeoOperation"/>
+    <routinesParameter id="_4-X-sEWXEemrHbbpYf4SYA" name="GeometryOperation"/>
+    <routinesParameter id="_5DBOIEWXEemrHbbpYf4SYA" name="GeometryUtility"/>
+    <routinesParameter id="_-pk6wBikEemEWtF8THou5A" name="Mathematical"/>
+    <routinesParameter id="_-pwg8BikEemEWtF8THou5A" name="Numeric"/>
+    <routinesParameter id="_5DUJFkWXEemrHbbpYf4SYA" name="OpenStreetMap"/>
+    <routinesParameter id="_-p9VQBikEemEWtF8THou5A" name="Relational"/>
+    <routinesParameter id="_-qHtUBikEemEWtF8THou5A" name="StringHandling"/>
+    <routinesParameter id="_-qWW0BikEemEWtF8THou5A" name="TalendDataGenerator"/>
+    <routinesParameter id="_-qjyMBikEemEWtF8THou5A" name="TalendDate"/>
+    <routinesParameter id="_-q8MsBikEemEWtF8THou5A" name="TalendStringUtil"/>
+    <routinesParameter id="_-qv_cBikEemEWtF8THou5A" name="TalendString"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="-192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;&quot;);&#xA;System.out.println(&quot;=== DEBUT FLUX LAUNCHER INITIALIZE MIGRATION SSP&quot;);&#xA;System.out.println(&quot;===&quot;);&#xA;System.out.println(&quot;=== Nom du projet         : &quot; + projectName);&#xA;System.out.println(&quot;=== Nom du job            : &quot; + jobName);&#xA;System.out.println(&quot;=== Version               : &quot; + jobVersion);&#xA;System.out.println(&quot;===&quot;);&#xA;System.out.println(&quot;=== Application Source    : ALL&quot;);&#xA;System.out.println(&quot;=== Application Cible     : SSP&quot;);&#xA;System.out.println(&quot;===&quot;);&#xA;System.out.println(&quot;=== Début :&quot; +TalendDate.getDate(&quot;YYYY-MM-DD hh:mm:ss&quot;));&#xA;System.out.println(&quot;&quot;);&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;=== Fin :&quot; +TalendDate.getDate(&quot;YYYY-MM-DD hh:mm:ss&quot;));&#xA;System.out.println(&quot;===&quot;);&#xA;System.out.println(&quot;=== FIN FLUX JOB LAUNCHER INITIALIZE MIGRATION SSP&quot;);&#xA;System.out.println(&quot;===&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SSP_Test_Connexions_Databases"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="LOCAL"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_Zu1JkFt8EemxD94GTZpUVA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="-32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SSP_Purge_Work_Directory"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="LOCAL"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_fVa-oFt8EemxD94GTZpUVA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_3"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_4" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SSP_Drop_Create_Database"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="LOCAL"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_w962oFarEemSLrHR_K9vuA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_4"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_5" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SSP_Insert_Lexique_Data"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="LOCAL"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_nepvkFt8EemxD94GTZpUVA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_5"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;&quot;);&#xA;System.out.println(&quot;=== DEBUT Reset Sequences&quot;);&#xA;System.out.println(&quot;===&quot;);&#xA;System.out.println(&quot;=== Début :&quot; +TalendDate.getDate(&quot;YYYY-MM-DD hh:mm:ss&quot;));&#xA;&#xA;&#xA;Numeric.resetSequence(&quot;id_inventaire_region&quot;,0);&#xA;Numeric.resetSequence(&quot;id_inventaire_departement&quot;,0);&#xA;Numeric.resetSequence(&quot;id_inventaire_commune&quot;,0);&#xA;Numeric.resetSequence(&quot;id_inventaire_adresse&quot;,0);&#xA;Numeric.resetSequence(&quot;id_site&quot;,0);&#xA;Numeric.resetSequence(&quot;id_code_metier_site&quot;,0);&#xA;Numeric.resetSequence(&quot;id_geolocalisation&quot;,0);&#xA;Numeric.resetSequence(&quot;id_inventaire_parcelle&quot;,0);&#xA;Numeric.resetSequence(&quot;id_inventaire&quot;,0);&#xA;Numeric.resetSequence(&quot;id_classification&quot;,0);&#xA;Numeric.resetSequence(&quot;id_instruction&quot;,0);&#xA;Numeric.resetSequence(&quot;id_accident&quot;,0);&#xA;Numeric.resetSequence(&quot;id_etablissement&quot;,0);&#xA;Numeric.resetSequence(&quot;id_ref_code_naf&quot;,0);&#xA;Numeric.resetSequence(&quot;id_activite&quot;,0);&#xA;Numeric.resetSequence(&quot;id_surveillance&quot;,0);&#xA;Numeric.resetSequence(&quot;id_action&quot;,0);&#xA;Numeric.resetSequence(&quot;id_code_metier_classification&quot;,0);&#xA;Numeric.resetSequence(&quot;id_rel_inventaire_site&quot;,0);&#xA;Numeric.resetSequence(&quot;id_rel_site_inventaire_commune&quot;,0);&#xA;Numeric.resetSequence(&quot;id_rel_adresse_site&quot;,0);&#xA;Numeric.resetSequence(&quot;id_rel_classification_inventaire_commune&quot;,0);&#xA;Numeric.resetSequence(&quot;id_rel_inventaire_classification&quot;,0);&#xA;Numeric.resetSequence(&quot;id_rel_instruction_inventaire_commune&quot;,0);&#xA;Numeric.resetSequence(&quot;id_rel_inventaire_instruction&quot;,0);&#xA;&#xA;System.out.println(&quot;=== Fin :&quot; +TalendDate.getDate(&quot;YYYY-MM-DD hh:mm:ss&quot;));&#xA;System.out.println(&quot;===&quot;);&#xA;System.out.println(&quot;=== FIN Reset Sequences&quot;);&#xA;System.out.println(&quot;===&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tRunJob_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" source="tRunJob_2" target="tRunJob_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_3" offsetLabelX="0" offsetLabelY="0" source="tRunJob_3" target="tRunJob_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_4" offsetLabelX="0" offsetLabelY="0" source="tRunJob_4" target="tRunJob_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_5" offsetLabelX="0" offsetLabelY="0" source="tRunJob_5" target="tJava_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_5" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_pO61UEpPEem8e41s8O6_ZA" name="INSEE" dataPackage="_pO61UUpPEem8e41s8O6_ZA" Server="Localhost 127.0.0.1" FilePath="C:/Users/yanis.haneche/Documents/BRGM/Talend/Migration/in/code-postal-code-insee-2015.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pO61UUpPEem8e41s8O6_ZA" name="default" dataManager="_pO61UEpPEem8e41s8O6_ZA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pO61UkpPEem8e41s8O6_ZA" id="_k9JeIEpPEem8e41s8O6_ZA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61U0pPEem8e41s8O6_ZA" label="Geo_Point" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61VEpPEem8e41s8O6_ZA" label="Geo_Shape" length="13845" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61VUpPEem8e41s8O6_ZA" label="ID_GEOFLA" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61VkpPEem8e41s8O6_ZA" label="CODE_COM" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61V0pPEem8e41s8O6_ZA" label="INSEE_COM" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61WEpPEem8e41s8O6_ZA" label="NOM_COM" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61WUpPEem8e41s8O6_ZA" label="STATUT" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61WkpPEem8e41s8O6_ZA" label="X_CHF_LIEU" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61W0pPEem8e41s8O6_ZA" label="Y_CHF_LIEU" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61XEpPEem8e41s8O6_ZA" label="X_CENTROID" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61XUpPEem8e41s8O6_ZA" label="Y_CENTROID" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61XkpPEem8e41s8O6_ZA" label="Z_MOYEN" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61X0pPEem8e41s8O6_ZA" label="SUPERFICIE" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61YEpPEem8e41s8O6_ZA" label="POPULATION" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61YUpPEem8e41s8O6_ZA" label="CODE_CANT" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61YkpPEem8e41s8O6_ZA" label="CODE_ARR" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61Y0pPEem8e41s8O6_ZA" label="CODE_DEPT" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61ZEpPEem8e41s8O6_ZA" label="NOM_DEPT" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61ZUpPEem8e41s8O6_ZA" label="CODE_REG" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61ZkpPEem8e41s8O6_ZA" label="NOM_REG" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61Z0pPEem8e41s8O6_ZA" label="Ligne_5" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61aEpPEem8e41s8O6_ZA" label="Libelle_acheminement" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61aUpPEem8e41s8O6_ZA" label="Code_postal" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61akpPEem8e41s8O6_ZA" label="Nom_commune" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pO61a0pPEem8e41s8O6_ZA" label="coordonnees_gps" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
